@@ -1,0 +1,9 @@
+name: networq:dns
+description: DNS types
+license: MIT
+
+widgets:
+  domainRecordsTab:
+    type: networq:dns:domain
+    hook: tab
+    label: DNS Records

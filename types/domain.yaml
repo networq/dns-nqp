@@ -1,0 +1,14 @@
+name: domain
+labelPlural: Domains
+labelSingular: Domain
+
+fields:
+  name:
+    type: string
+  records:
+    type: networq:dns:record[]
+    reverse: domain
+  primary-nameserver:
+    type: string
+  secondary-nameserver:
+    type: string
